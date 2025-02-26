@@ -72,7 +72,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence-2GI23CS408" sap:VirtualizedContainerService.HintSize="908.8000000000001,562.84" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Sequence-2GI23CS408" sap:VirtualizedContainerService.HintSize="908.8000000000001,377.24000000000007" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="MyString" />
       <Variable x:TypeArguments="x:String" Name="email" />
