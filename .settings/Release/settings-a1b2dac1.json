@@ -32,5 +32,7 @@
   "UiPath.UIAutomationNext.Activities.Generic.AskAtRuntime": "False",
   "UiPath.UIAutomationNext.Activities.ClosePopup.PopupAppearTimeout": "30",
   "UiPath.UIAutomationNext.Activities.SAPLogon.SAPLogonRetries": "5",
-  "UiPath.UIAutomationNext.Activities.SAPLogon.SAPLogonDelayBetweenRetries": "0.5"
+  "UiPath.UIAutomationNext.Activities.SAPLogon.SAPLogonDelayBetweenRetries": "0.5",
+  "UiPath.UIAutomationNext.Activities.SearchStepsWnd.WpfSupport": "False",
+  "UiPath.UIAutomationNext.Activities.Logging.UITaskLogLevel": "Info"
 }

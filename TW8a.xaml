@@ -35,6 +35,8 @@
       <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -81,9 +83,12 @@
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence-2GI23CS408" sap:VirtualizedContainerService.HintSize="892.0000000000001,1351.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Sequence-2GI23CS408" sap:VirtualizedContainerService.HintSize="892.0000000000001,1248.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:Int32, x:String)" Name="Winners" />
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Int32)" Name="Victories" />
@@ -125,7 +130,7 @@ Thomas"}}]</InArgument>
         <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Int32)">[new Dictionary(of String, int32)]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:Int32, x:String)" CurrentIndex="{x:Null}" DisplayName="For Each-2GI23CS417" sap:VirtualizedContainerService.HintSize="504,700.8" sap2010:WorkflowViewState.IdRef="ForEach`1_6" Values="[Winners]">
+    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:Int32, x:String)" CurrentIndex="{x:Null}" DisplayName="For Each-2GI23CS417" sap:VirtualizedContainerService.HintSize="504,649.6" sap2010:WorkflowViewState.IdRef="ForEach`1_6" Values="[Winners]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="scg:KeyValuePair(x:Int32, x:String)">
           <ActivityAction.Argument>
@@ -177,7 +182,7 @@ Thomas"}}]</InArgument>
         </ActivityAction>
       </ui:ForEach.Body>
     </ui:ForEach>
-    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:Int32)" CurrentIndex="{x:Null}" DisplayName="For Each-2GI23CS417" sap:VirtualizedContainerService.HintSize="504,398.4" sap2010:WorkflowViewState.IdRef="ForEach`1_7" Values="[Victories]">
+    <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:Int32)" CurrentIndex="{x:Null}" DisplayName="For Each-2GI23CS417" sap:VirtualizedContainerService.HintSize="504,347.2" sap2010:WorkflowViewState.IdRef="ForEach`1_7" Values="[Victories]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:Int32)">
           <ActivityAction.Argument>
